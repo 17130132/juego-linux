@@ -43,64 +43,43 @@
 [ext_resource path="res://Assets/cat_izq/cat_jump_izq_3.png" type="Texture" id=41]
 [ext_resource path="res://Assets/cat_der/cat_jump_der_3.png" type="Texture" id=42]
 
-[sub_resource type="AtlasTexture" id=44]
+[sub_resource type="AtlasTexture" id=1]
 flags = 4
 atlas = ExtResource( 11 )
 region = Rect2( 0, 0, 32, 32 )
 
-[sub_resource type="AtlasTexture" id=45]
+[sub_resource type="AtlasTexture" id=2]
 flags = 4
 atlas = ExtResource( 11 )
 region = Rect2( 32, 0, 32, 32 )
 
-[sub_resource type="AtlasTexture" id=46]
+[sub_resource type="AtlasTexture" id=3]
 flags = 4
 atlas = ExtResource( 11 )
 region = Rect2( 64, 0, 32, 32 )
 
-[sub_resource type="AtlasTexture" id=47]
+[sub_resource type="AtlasTexture" id=4]
 flags = 4
 atlas = ExtResource( 11 )
 region = Rect2( 0, 32, 32, 32 )
 
-[sub_resource type="AtlasTexture" id=48]
+[sub_resource type="AtlasTexture" id=5]
 flags = 4
 atlas = ExtResource( 11 )
 region = Rect2( 32, 32, 32, 32 )
 
-[sub_resource type="AtlasTexture" id=49]
+[sub_resource type="AtlasTexture" id=6]
 flags = 4
 atlas = ExtResource( 11 )
 region = Rect2( 64, 32, 32, 32 )
 
-[sub_resource type="SpriteFrames" id=50]
+[sub_resource type="SpriteFrames" id=7]
 animations = [ {
-"frames": [ SubResource( 44 ), SubResource( 45 ), SubResource( 46 ), SubResource( 47 ), SubResource( 48 ), SubResource( 49 ) ],
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ) ],
 "loop": true,
 "name": "default",
 "speed": 8.0
 } ]
-
-[sub_resource type="ConvexPolygonShape2D" id=1]
-points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
-
-[sub_resource type="ConvexPolygonShape2D" id=2]
-points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
-
-[sub_resource type="ConvexPolygonShape2D" id=3]
-points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
-
-[sub_resource type="ConvexPolygonShape2D" id=4]
-points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
-
-[sub_resource type="ConvexPolygonShape2D" id=5]
-points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
-
-[sub_resource type="ConvexPolygonShape2D" id=6]
-points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
-
-[sub_resource type="ConvexPolygonShape2D" id=7]
-points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 
 [sub_resource type="ConvexPolygonShape2D" id=8]
 points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
@@ -121,7 +100,7 @@ points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 
 [sub_resource type="ConvexPolygonShape2D" id=14]
-points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 
 [sub_resource type="ConvexPolygonShape2D" id=15]
 points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
@@ -136,13 +115,13 @@ points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 
 [sub_resource type="ConvexPolygonShape2D" id=19]
-points = PoolVector2Array( 0, 0, 64, 64, 0, 64 )
+points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 
 [sub_resource type="ConvexPolygonShape2D" id=20]
-points = PoolVector2Array( 0, 64, 64, 0, 64, 64 )
+points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 
 [sub_resource type="ConvexPolygonShape2D" id=21]
-points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
+points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=22]
 points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
@@ -157,10 +136,10 @@ points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 
 [sub_resource type="ConvexPolygonShape2D" id=26]
-points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
+points = PoolVector2Array( 0, 0, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=27]
-points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
+points = PoolVector2Array( 0, 64, 64, 0, 64, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=28]
 points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
@@ -174,7 +153,28 @@ points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 [sub_resource type="ConvexPolygonShape2D" id=31]
 points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 
-[sub_resource type="TileSet" id=32]
+[sub_resource type="ConvexPolygonShape2D" id=32]
+points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=33]
+points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=34]
+points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=35]
+points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=36]
+points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=37]
+points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=38]
+points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
+
+[sub_resource type="TileSet" id=39]
 0/name = "Final.png 0"
 0/texture = ExtResource( 13 )
 0/tex_offset = Vector2( 0, 0 )
@@ -192,194 +192,194 @@ points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 0/navigation_offset = Vector2( 0, 0 )
 0/shape_offset = Vector2( 0, 0 )
 0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-0/shape = SubResource( 1 )
+0/shape = SubResource( 8 )
 0/shape_one_way = false
 0/shape_one_way_margin = 1.0
 0/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 1 ),
+"shape": SubResource( 8 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 1, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 2 ),
+"shape": SubResource( 9 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 2, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 3 ),
+"shape": SubResource( 10 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 4, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 4 ),
+"shape": SubResource( 11 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 5, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 5 ),
+"shape": SubResource( 12 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 6, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 6 ),
+"shape": SubResource( 13 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 0, 1 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 7 ),
+"shape": SubResource( 14 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 1, 1 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 8 ),
+"shape": SubResource( 15 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 2, 1 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 9 ),
+"shape": SubResource( 16 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 3, 1 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 10 ),
+"shape": SubResource( 17 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 4, 1 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 11 ),
+"shape": SubResource( 18 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 3, 2 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 12 ),
+"shape": SubResource( 19 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 6, 2 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 13 ),
+"shape": SubResource( 20 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 0, 3 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 14 ),
+"shape": SubResource( 21 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 1, 3 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 15 ),
+"shape": SubResource( 22 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 1, 4 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 16 ),
+"shape": SubResource( 23 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 4, 4 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 17 ),
+"shape": SubResource( 24 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 5, 4 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 18 ),
+"shape": SubResource( 25 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 6, 5 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 19 ),
+"shape": SubResource( 26 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 0, 6 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 20 ),
+"shape": SubResource( 27 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 1, 6 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 21 ),
+"shape": SubResource( 28 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 2, 6 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 22 ),
+"shape": SubResource( 29 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 3, 6 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 23 ),
+"shape": SubResource( 30 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 4, 6 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 24 ),
+"shape": SubResource( 31 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 5, 6 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 25 ),
+"shape": SubResource( 32 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 6, 6 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 26 ),
+"shape": SubResource( 33 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 0, 7 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 27 ),
+"shape": SubResource( 34 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 1, 7 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 28 ),
+"shape": SubResource( 35 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 2, 7 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 29 ),
+"shape": SubResource( 36 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 0, 10 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 30 ),
+"shape": SubResource( 37 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 1, 10 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 31 ),
+"shape": SubResource( 38 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 0/z_index = 0
@@ -412,35 +412,35 @@ points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 2/shapes = [  ]
 2/z_index = 0
 
-[sub_resource type="AtlasTexture" id=33]
+[sub_resource type="AtlasTexture" id=40]
 flags = 4
 atlas = ExtResource( 6 )
 region = Rect2( 0, 0, 72, 72 )
 
-[sub_resource type="AtlasTexture" id=34]
+[sub_resource type="AtlasTexture" id=41]
 flags = 4
 atlas = ExtResource( 6 )
 region = Rect2( 72, 0, 72, 72 )
 
-[sub_resource type="AtlasTexture" id=35]
+[sub_resource type="AtlasTexture" id=42]
 flags = 4
 atlas = ExtResource( 6 )
 region = Rect2( 144, 0, 72, 72 )
 
-[sub_resource type="AtlasTexture" id=36]
+[sub_resource type="AtlasTexture" id=43]
 flags = 4
 atlas = ExtResource( 6 )
 region = Rect2( 216, 0, 72, 72 )
 
-[sub_resource type="SpriteFrames" id=37]
+[sub_resource type="SpriteFrames" id=44]
 animations = [ {
-"frames": [ SubResource( 33 ), SubResource( 34 ), SubResource( 35 ), SubResource( 36 ) ],
+"frames": [ SubResource( 40 ), SubResource( 41 ), SubResource( 42 ), SubResource( 43 ) ],
 "loop": true,
 "name": "default",
 "speed": 10.0
 } ]
 
-[sub_resource type="SpriteFrames" id=43]
+[sub_resource type="SpriteFrames" id=45]
 animations = [ {
 "frames": [ ExtResource( 20 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 16 ), ExtResource( 14 ), ExtResource( 19 ), ExtResource( 15 ) ],
 "loop": false,
@@ -448,18 +448,8 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[sub_resource type="SpriteFrames" id=61]
+[sub_resource type="SpriteFrames" id=46]
 animations = [ {
-"frames": [ ExtResource( 36 ), ExtResource( 39 ), ExtResource( 32 ), ExtResource( 33 ) ],
-"loop": true,
-"name": "Idle_izq",
-"speed": 8.0
-}, {
-"frames": [ ExtResource( 12 ), ExtResource( 21 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ) ],
-"loop": true,
-"name": "run_der",
-"speed": 10.0
-}, {
 "frames": [ ExtResource( 41 ) ],
 "loop": true,
 "name": "jump_izq",
@@ -475,13 +465,23 @@ animations = [ {
 "name": "Idle_der",
 "speed": 8.0
 }, {
+"frames": [ ExtResource( 36 ), ExtResource( 39 ), ExtResource( 32 ), ExtResource( 33 ) ],
+"loop": true,
+"name": "Idle_izq",
+"speed": 8.0
+}, {
 "frames": [ ExtResource( 37 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 31 ), ExtResource( 38 ), ExtResource( 40 ) ],
 "loop": true,
 "name": "run_izq",
 "speed": 10.0
+}, {
+"frames": [ ExtResource( 12 ), ExtResource( 21 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ) ],
+"loop": true,
+"name": "run_der",
+"speed": 10.0
 } ]
 
-[sub_resource type="RectangleShape2D" id=62]
+[sub_resource type="RectangleShape2D" id=47]
 extents = Vector2( 10.8333, 7.77778 )
 
 [node name="Tileset" type="Node2D"]
@@ -506,8 +506,8 @@ scale = Vector2( 0.25, 0.25 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Pescado"]
 position = Vector2( 60, -124 )
-frames = SubResource( 50 )
-frame = 3
+frames = SubResource( 7 )
+frame = 1
 playing = true
 
 [node name="Pescado2" type="Sprite" parent="."]
@@ -516,8 +516,8 @@ scale = Vector2( 0.25, 0.25 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Pescado2"]
 position = Vector2( -604, 196 )
-frames = SubResource( 50 )
-frame = 3
+frames = SubResource( 7 )
+frame = 1
 playing = true
 
 [node name="Pescado3" type="Sprite" parent="."]
@@ -526,14 +526,13 @@ scale = Vector2( 0.25, 0.25 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Pescado3"]
 position = Vector2( -732, 196 )
-frames = SubResource( 50 )
-frame = 2
+frames = SubResource( 7 )
 playing = true
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2( 3, -152 )
 scale = Vector2( 0.25, 0.25 )
-tile_set = SubResource( 32 )
+tile_set = SubResource( 39 )
 format = 1
 tile_data = PoolIntArray( 1245214, 0, 393220, 1310739, 0, 131075, 1310744, 0, 393217, 1310745, 0, 393218, 1310746, 0, 393218, 1310747, 0, 393219, 1441806, 0, 393216, 1441807, 0, 1, 1441808, 0, 2, 1507339, 0, 5, 1507340, 0, 262149, 1507341, 0, 262148, 1507342, 0, 458757, 1507343, 0, 3, 1507344, 0, 524293, 1572875, 0, 524292, 1572876, 0, 3, 1572877, 0, 3, 1572878, 0, 3, 1572879, 0, 3, 1572880, 0, 524293, 1572882, 0, 393216, 1572883, 0, 6, 1572884, 0, 65536, 1572887, 0, 5, 1572888, 0, 6, 1572889, 0, 6, 1572890, 0, 6, 1572891, 0, 6, 1572892, 0, 65536, 1572895, 0, 0, 1572896, 0, 1, 1572897, 0, 1, 1572898, 0, 2, 1638406, 0, 5, 1638407, 0, 6, 1638408, 0, 6, 1638409, 0, 65536, 1638411, 0, 524292, 1638412, 0, 3, 1638413, 0, 3, 1638414, 0, 3, 1638415, 0, 3, 1638416, 0, 524293, 1638417, 0, 393216, 1638418, 0, 458757, 1638419, 0, 3, 1638420, 0, 524293, 1638423, 0, 458758, 1638424, 0, 524288, 1638425, 0, 524288, 1638426, 0, 524288, 1638427, 0, 524288, 1638428, 0, 524289, 1638431, 0, 458755, 1638432, 0, 65542, 1638433, 0, 65542, 1638434, 0, 589824, 1703947, 0, 524292, 1703948, 0, 3, 1703949, 0, 3, 1703950, 0, 5, 1703951, 0, 6, 1703952, 0, 6, 1703953, 0, 458757, 1703954, 0, 65542, 1703955, 0, 3, 1703956, 0, 524293, 1703967, 0, 524292, 1703968, 0, 3, 1703969, 0, 3, 1703970, 0, 524293, 1769483, 0, 524292, 1769484, 0, 3, 1769485, 0, 3, 1769486, 0, 3, 1769487, 0, 3, 1769488, 0, 3, 1769489, 0, 3, 1769490, 0, 3, 1769491, 0, 524288, 1769492, 0, 524289, 1769503, 0, 524292, 1769504, 0, 327683, 1769505, 0, 327684, 1769506, 0, 524293, 1835019, 0, 524292, 1835020, 0, 65537, 1835021, 0, 65538, 1835022, 0, 65538, 1835023, 0, 65538, 1835024, 0, 65540, 1835025, 0, 3, 1835026, 0, 524293, 1835039, 0, 524292, 1835040, 0, 327684, 1835041, 0, 327683, 1835042, 0, 524293, 1900544, 0, 131078, 1900545, 0, 196608, 1900546, 0, 196608, 1900547, 0, 196608, 1900548, 0, 196608, 1900549, 0, 196608, 1900550, 0, 196608, 1900551, 0, 196608, 1900552, 0, 196608, 1900553, 0, 196608, 1900554, 0, 196609, 1900555, 0, 458758, 1900556, 0, 524288, 1900557, 0, 524288, 1900558, 0, 524288, 1900559, 0, 524288, 1900560, 0, 524288, 1900561, 0, 524288, 1900562, 0, 524289, 1900575, 0, 458758, 1900576, 0, 524288, 1900577, 0, 524288, 1900578, 0, 524289 )
 
@@ -543,8 +542,8 @@ scale = Vector2( 0.375, 0.375 )
 texture = ExtResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="fuente"]
-frames = SubResource( 37 )
-frame = 1
+frames = SubResource( 44 )
+frame = 2
 playing = true
 
 [node name="Sign" type="Sprite" parent="."]
@@ -570,7 +569,7 @@ texture = ExtResource( 7 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 209, 211 )
 scale = Vector2( 0.454546, 0.454546 )
-frames = SubResource( 43 )
+frames = SubResource( 45 )
 frame = 6
 playing = true
 
@@ -582,13 +581,13 @@ script = ExtResource( 22 )
 pause_mode = 2
 position = Vector2( -6, 6 )
 scale = Vector2( 0.75, 0.75 )
-frames = SubResource( 61 )
+frames = SubResource( 46 )
 animation = "Idle_der"
 frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Nachos"]
 position = Vector2( -5.22223, 9.94446 )
-shape = SubResource( 62 )
+shape = SubResource( 47 )
 
 [node name="gato 2" type="Sprite" parent="."]
